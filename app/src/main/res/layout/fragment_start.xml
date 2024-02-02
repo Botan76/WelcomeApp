@@ -12,7 +12,7 @@
         android:id="@+id/changeBTN"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:text="Change it !"
+        android:text="Click Here !"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

@@ -8,10 +8,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val welcomeFragment = StartFragment()
-        supportFragmentManager.beginTransaction()
-            .replace(R.id.fragmentContainer, welcomeFragment)
-            .commit()
+
     }
 
 
