@@ -9,7 +9,6 @@ import android.widget.Button
 import android.widget.TextView
 
 
-@Suppress("UNREACHABLE_CODE")
 class StartFragment : Fragment() {
 
 
