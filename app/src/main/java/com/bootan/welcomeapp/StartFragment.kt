@@ -17,7 +17,13 @@ class StartFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        val view = inflater.inflate(R.layout.fragment_start, container, false)
+        return inflater.inflate(R.layout.fragment_start, container, false)
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+
+
 
         val welcomeText = view.findViewById<TextView>(R.id.welcomeTV)
         val changeBTN = view.findViewById<Button>(R.id.changeBTN)
@@ -25,6 +31,7 @@ class StartFragment : Fragment() {
         changeBTN.setOnClickListener {
             welcomeText.text = "Goodbye!"
         }
-        return view
+
+
     }
 }
